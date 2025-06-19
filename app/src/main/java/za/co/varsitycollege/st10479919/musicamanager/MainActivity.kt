@@ -1,6 +1,7 @@
 // Petrus Jakobus Venter ST10479919
 package za.co.varsitycollege.st10479919.musicamanager
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -23,9 +24,21 @@ class MainActivity : AppCompatActivity() {
         // Text that welcomes users
         val welcomeText = findViewById<TextView>(R.id.welcomeText);
         // Button should move to the next screen
-        val moveToInputData = findViewById<Button>(R.id.moveToInputDataButton);
+        val moveToInputDataButton = findViewById<Button>(R.id.moveToInputDataButton);
         // Button to exit the app
         val exitButton = findViewById<Button>(R.id.exitButton);
+
+        // Moves to DataInput Screen
+        moveToInputDataButton.setOnClickListener {
+            val moveToInputData = Intent(this, DataInput::class.java);
+            startActivity(moveToInputData);
+            finish();
+        }
+
+        // Exits the app
+        exitButton.setOnClickListener {
+            finish();
+        }
 
 
     }
