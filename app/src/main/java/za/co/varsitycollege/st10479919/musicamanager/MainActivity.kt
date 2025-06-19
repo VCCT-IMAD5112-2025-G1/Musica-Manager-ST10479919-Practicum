@@ -27,5 +27,6 @@ class MainActivity : AppCompatActivity() {
         // Button to exit the app
         val exitButton = findViewById<Button>(R.id.exitButton);
 
+
     }
 }
