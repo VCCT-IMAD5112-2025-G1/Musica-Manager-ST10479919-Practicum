@@ -38,7 +38,7 @@ Android Oreo (8.0) or higher
 
 ## Installation
 
-Install my-project with npm
+Install my-project with git
 
 ```clone
   git clone https://github.com/ST10479919/Musica-Manager-ST10479919-Practicum
