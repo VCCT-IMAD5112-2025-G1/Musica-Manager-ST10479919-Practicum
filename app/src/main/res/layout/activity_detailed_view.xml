@@ -7,15 +7,20 @@
     android:layout_height="match_parent"
     tools:context=".DetailedView">
 
+
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="410dp"
         android:layout_height="347dp"
         android:orientation="vertical"
         android:padding="16dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="-2dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/tableTitle"
@@ -207,7 +212,6 @@
 
     </LinearLayout>
 
-
     <Button
         android:id="@+id/populateButton"
         android:layout_width="162dp"
@@ -215,6 +219,7 @@
         android:layout_marginStart="150dp"
         android:layout_marginTop="63dp"
         android:layout_marginEnd="150dp"
+        android:backgroundTint="#225B6D"
         android:text="Show data"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -226,12 +231,16 @@
         android:id="@+id/calculateAvgButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
         android:layout_marginTop="140dp"
+        android:layout_marginEnd="124dp"
+        android:backgroundTint="#225B6D"
         android:text="Calculate Avarage"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:layout_constraintVertical_bias="0.005"
-        tools:layout_editor_absoluteX="124dp" />
+        app:layout_constraintVertical_bias="0.005" />
 
     <Button
         android:id="@+id/returnToMainScreenButton"
@@ -241,6 +250,7 @@
         android:layout_marginTop="216dp"
         android:layout_marginEnd="160dp"
         android:layout_marginBottom="122dp"
+        android:backgroundTint="#225B6D"
         android:text="Back to home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
