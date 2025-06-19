@@ -115,7 +115,7 @@ class DetailedView : AppCompatActivity() {
             }
             // Divide by array size to get average
             avgRating /= ratingTextView.count();
-            averageText.text = "Average Rating: ${avgRating}";
+            averageText.text = "Average Rating (rounded): ${avgRating}";
             // Disable button
             calculateAvgButton.isEnabled = false;
         }
