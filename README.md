@@ -21,9 +21,10 @@ Please make sure you are using the latest avalible version of android
 
 
 ## Screenshots
+![1H](https://github.com/user-attachments/assets/bb5187f4-0758-4264-8cb4-ac2c62e85675)
 
-![App Screenshot](![1H](https://github.com/user-attachments/assets/520b5040-4444-4f24-9235-6bea65b5f020))
-![App Screenshot](![2DI](https://github.com/user-attachments/assets/f95f4035-4f4d-4d25-b305-f56d2534d56d))
+![2DI](https://github.com/user-attachments/assets/0bf4925f-1a91-466c-b57c-d0a21b60b82e)
+
 
 ## Requirements
 
