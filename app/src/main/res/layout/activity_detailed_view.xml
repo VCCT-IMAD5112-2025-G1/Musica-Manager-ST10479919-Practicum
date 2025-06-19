@@ -7,4 +7,244 @@
     android:layout_height="match_parent"
     tools:context=".DetailedView">
 
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="410dp"
+        android:layout_height="347dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-2dp">
+
+        <TextView
+            android:id="@+id/tableTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="Playlist Data"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1,2,4">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Song" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Artist" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Rating" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=" Comment" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/songNameText0"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:text="Item 0" />
+
+                <TextView
+                    android:id="@+id/artistNameText0"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Item 0" />
+
+                <TextView
+                    android:id="@+id/ratingText0"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Item 0" />
+
+                <TextView
+                    android:id="@+id/commentText0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Item 0" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/songNameText1"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:text="Item 1" />
+
+                <TextView
+                    android:id="@+id/artistNameText1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Item 1" />
+
+                <TextView
+                    android:id="@+id/ratingText1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Item 1" />
+
+                <TextView
+                    android:id="@+id/commentText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Item 1" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/songNameText2"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:text="Item 2" />
+
+                <TextView
+                    android:id="@+id/artistNameText2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Item 2" />
+
+                <TextView
+                    android:id="@+id/ratingText2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Item 2" />
+
+                <TextView
+                    android:id="@+id/commentText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Item 2" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/songNameText3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:text="Item 3" />
+
+                <TextView
+                    android:id="@+id/artistNameText3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Item 3" />
+
+                <TextView
+                    android:id="@+id/ratingText3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Item 3" />
+
+                <TextView
+                    android:id="@+id/commentText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Item 3" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/averageText"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:text="Click on the button to show average of ratings!" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/populateButton"
+        android:layout_width="162dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="150dp"
+        android:text="Show data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/calculateAvgButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="Calculate Avarage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.005"
+        tools:layout_editor_absoluteX="124dp" />
+
+    <Button
+        android:id="@+id/returnToMainScreenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="122dp"
+        android:text="Back to home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
